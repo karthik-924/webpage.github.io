@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Co webpage</title>
+        <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	
+	<link rel='stylesheet' href=
+'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	
+	<script src=
+'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
+	</script>
+	
+	<script src=
+'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'>
+	</script>
+        <style>
+            p{
+                display: flex;
+                border:0px;
+                background-color: transparent;
+                color:white;
+                font-size: 25px;
+                font-family: monospace;
+                word-break: normal;
+                word-wrap: break-word;
+            }
+            u{
+                color: white;
+            }
+            pre{
+                display: flex;
+                border:0px;
+                background-color: transparent;
+                color:white;
+                font-size: x-large;
+            }
+            h1{
+                font-weight: bolder;
+                
+            }
+            h2{
+                color:white;
+                font-size: xx-large;
+                font-weight: bold;
+            }
+            div{
+                text-align:center;
+                font-style:calc();
+                font-size:larger;
+                font-weight: bold;
+                color: white;
+                height: 50px;
+                padding-bottom: 25px;
+                 }
+                 body{
+                     background:url("shravs.jpg");
+                     background-size: cover;
+			         margin: 20px;
+                     font-weight: bolder;
+		}
+		#topheader .navbar-nav li > a {
+			text-transform: capitalize;
+			color: #333;
+			-webkit-transition: background-color .2s, color .2s;
+			transition: background-color .2s, color .2s;
+            margin:0px 40px;
+            text-align: center;
+            font-family: bolder;
+            font-size: large;
+		}
+		#topheader .navbar-nav li > a:hover,
+		#topheader .navbar-nav li > a:focus {
+			background-color: #5e5f5f;
+			color: #fff;
+		}
+		#topheader .navbar-nav li.active > a {
+			background-color: #5c5d5e;
+			color: white;
+		}
+                  </style>
+    </head>
+        <body>
+        <hr size="5" color="white">
+        <div>
+        <h1>COMPUTER ORGANIZATION RESOURCES</h1>
+        </div>
+        <hr size="5" color="white">
+         <div id="topheader">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                     <div class="collapse navbar-collapse"
+                            id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#home">
+                                Home</a>
+                            </li>
+                            <li><a href="co2.html">Resources</a></li>
+                            <li><a href="co3.html">About Us</a></li>
+                            <li><a href="co4.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+        <script>
+            $( '#topheader .navbar-nav a' ).on('click',
+                        function () {
+                $( '#topheader .navbar-nav' ).find( 'li.active' )
+                .removeClass( 'active' );
+                $( this ).parent( 'li' ).addClass( 'active' );
+            });
+        </script>
+        <u><h2>COMPUTER ORGANIZATION:</h2></u>
+         <p>
+            The Computer Organization is concerned with the structure and behaviour of digital computers.The name objective of this subject
+            is to understand the overall basic computer hardware structure,including the peripheral devices.
+            Computer Organization includes the high level aspects of a design,memory system,the bus structure and the design of the internal CPU.
+        </p>
+        <u><h2>CONTENT:</h2></u>
+        <p><pre> UNIT 1: Digital Computers
+         Register Transfer Language and Micro Operations
+         Basic Computer Organization and Design
+        </pre>
+        </p>
+        <p><pre> UNIT 2: Microprogrammed Control
+         Central Processing Unit 
+        </pre>   
+        </p>
+        <p><pre> UNIT 3: Data Representation 
+         Computer Arithmetic
+        </pre>
+        <p><pre> UNIT 4: Input-Output Organization
+         Memory Organization   
+        </pre>
+        </p>
+        <p><pre> UNIT 5: Reduced Instruction Set Computer 
+         Pipeline and Vector Processing
+         Multi Processors    
+        </pre>
+        </p>
+        </p>
+</body>
+</html>
